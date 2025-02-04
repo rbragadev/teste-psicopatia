@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem é o Psicopata? 🕵️‍♂️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="intro">
+            <h2>Olá Amanda! Conforme prometido, eu fiz o teste!</h2>
+            <p>Agora é sua vez. Será que você consegue acertar minhas respostas?</p>
+            <button id="start-quiz">Começar!</button>
+        </div>
+
+        <div id="quiz" class="hidden">
+            <h2 id="question">Carregando...</h2>
+            <div id="answers"></div>
+        </div>
+
+        <div id="feedback" class="hidden">
+            <h2 id="feedback-text"></h2>
+            <p id="feedback-correct-answer"></p>
+            <p id="my-answer-text" class="my-answer"></p>  <!-- Adicionado para exibir a sua resposta absurda -->
+            <button id="next-question">Próxima Pergunta</button>
+        </div>
+
+        <div id="final-result" class="hidden">
+            <h2>Resultado Final</h2>
+            <p>Sua pontuação: <span id="opponent-score"></span> / 9</p>
+            <p>Minha pontuação: <b>0 / 9 (óbvio, eu só escolhi as piores opções 😆)</b></p>
+            <h3 id="verdict"></h3>
+            <p>Mas o médico me disse que esse laudo não é definitivo, e precisa de uma avaliação presencial...</p>
+            <div id="laudo"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
