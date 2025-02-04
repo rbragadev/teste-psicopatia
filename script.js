@@ -125,7 +125,7 @@ const questions = [
         myAnswer: 3, 
         wrongFeedbacks: [
             "",
-            "Um jantar especial? Ótima escolha... se não for você cozinhando. 😂🍽️",
+            "Um jantar especial? Ótima escolha... se não for eu cozinhando. 😂🍽️",
             "Videogame? Perfeito, mas cuidado para não esquecer do mundo real. 🎮",
             "Um caminhão de pizza? Isso parece um plano de vida. 🍕🔥"
         ],
